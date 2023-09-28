@@ -1,2 +1,5 @@
 pip install -r requirements.txt
-python3.9 manage.py collecstatic
+python manage.py collecstatic --no-input
+python manage.py migrate
+python manage.py runserver
+python load.py
